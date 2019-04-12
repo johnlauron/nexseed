@@ -10,9 +10,9 @@ class Employee extends Model
 
     protected $table = 'employees';
 
-    public function company()
+    public function departments()
     {
-        return $this->hasOne('App\Company');
+        return $this->hasMany('App\Department');
     }
     public function storeAll(array $data) {
         return Employee::create($data);

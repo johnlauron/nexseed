@@ -10,10 +10,6 @@ class Company extends Model
 
     protected $table = 'companies';
 
-    public function employees()
-    {
-        return $this->hasMany('App\Employee');
-    }
     public function departments()
     {
         return $this->hasMany('App\Department');
