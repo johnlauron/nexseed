@@ -4,6 +4,10 @@ button.close {
 h4#custom-width-modalLabel {
     width: 90%;
 }
+.login {
+    width: 60%;
+    margin: 0 auto;
+}
 @media screen and (max-width: 320px) {
     .btn {
         width: 100%;
